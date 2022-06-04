@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 75%;
+    height: 3rem;
+}
+
+input {
+    border: 1px solid pink;
+    outline: none;
+}
+
+.plus {
+    background-color: rgb(223, 141, 155);
+    border: none;
+    height: 3rem;
+}
+
+.plus:hover {
+    opacity: .8;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: .3; /* Firefox */
+  }
+
+.todo {
+    margin-bottom: 7rem;
+}
+
+.container {
+    border-bottom: 5px dotted pink;
+}
