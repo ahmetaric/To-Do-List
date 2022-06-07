@@ -42,7 +42,7 @@ plus.addEventListener("click",() =>{
             this.parentNode.style.textDecoration = "none";
             this.nextElementSibling.style.opacity = "1";
             this.nextElementSibling.style.color = "black";
-            this.style.backgroundColor = "white";
+            // this.style.backgroundColor = "white";
             this.nextElementSibling.style.fontStyle = "normal";
           };
         }
