@@ -11,6 +11,13 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container-fluid mt-4">
@@ -24,11 +31,12 @@
             class="input w-75 fs-2"
             placeholder="ADD TO DO HERE..."
           />
-          <button class="plus w-25 fs-2">+</button>
-          <button class="minus w-25 fs-2">-</button>
+          <button class="plus w-25 fs-2">ADD</button>
+          
         </div>
         <div class="todo mt-5 display-4">
           <span class="text-white">YOUR TODOS:</span>
+          <button class="minus w-25 fs-2" onclick="removeAll()">CLEAR</button>
         </div>
         <section id="todo-section" class="fs-3"></section>
       </div>
